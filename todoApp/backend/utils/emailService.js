@@ -1,4 +1,3 @@
-```javascript
 const nodemailer = require('nodemailer');
 const { Sequelize, DataTypes } = require('sequelize');
 
