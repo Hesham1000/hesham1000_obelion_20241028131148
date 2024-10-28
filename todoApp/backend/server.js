@@ -3,8 +3,8 @@
 const express = require('express');
 const mysql = require('mysql2');
 const authRoutes = require('./routes/authRoutes');
-const taskRoutes = require('./routes/taskRoutes');
-const reportRoutes = require('./routes/reportRoutes');
+// const taskRoutes = require('./routes/taskRoutes');
+// const reportRoutes = require('./routes/reportRoutes');
 
 const app = express();
 
@@ -13,8 +13,8 @@ app.use(express.json());
 
 // Routes
 app.use('/auth', authRoutes);
-app.use('/tasks', taskRoutes);
-app.use('/reports', reportRoutes);
+// app.use('/tasks', taskRoutes);
+// app.use('/reports', reportRoutes);
 
 // Database connection
 const db = mysql.createConnection({
