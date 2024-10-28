@@ -1,4 +1,3 @@
-```javascript
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../../database/connection'); // Assuming you have a connection file
 
