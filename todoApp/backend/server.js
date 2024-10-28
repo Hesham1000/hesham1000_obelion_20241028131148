@@ -17,20 +17,20 @@ app.use('/auth', authRoutes);
 // app.use('/reports', reportRoutes);
 
 // Database connection
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'agent',
-  password: 'agentpass',
-  database: 'Obelien AI'
-});
+// const db = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'agent',
+//   password: 'agentpass',
+//   database: 'Obelien AI'
+// });
 
-db.connect((err) => {
-  if (err) {
-    console.error('Database connection failed: ' + err.stack);
-    return;
-  }
-  console.log('Connected to database.');
-});
+// db.connect((err) => {
+//   if (err) {
+//     console.error('Database connection failed: ' + err.stack);
+//     return;
+//   }
+//   console.log('Connected to database.');
+// });
 
 // Error handling middleware
 app.use((err, req, res, next) => {

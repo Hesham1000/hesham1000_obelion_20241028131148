@@ -39,4 +39,3 @@ User.beforeCreate(async (user, options) => {
 });
 
 module.exports = User;
-```

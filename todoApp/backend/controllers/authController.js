@@ -46,4 +46,3 @@ exports.login = async (req, res) => {
     res.status(500).json({ success: false, message: 'An error occurred during login' });
   }
 };
-```
