@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './LoginForm.js.css';
+import './LoginForm.css';
 import axios from 'axios';
 
 function LoginForm({ onRegister, onLogin }) {
